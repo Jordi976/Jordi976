@@ -1,0 +1,32 @@
+body{
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-columns: 1fr 25%  ;
+  grid-template-rows: 80px 40px 400px 1fr;
+  grid-template-areas: "head head"
+                        "nav nav"
+                        "section aside "
+                        "footer footer"
+}
+
+header{
+        grid-area: head;
+}
+
+nav{
+        grid-area: nav;
+}
+
+section{
+        grid-area: section;
+        display: inline;
+}
+
+aside{
+        grid-area: aside;
+}
+
+footer{
+        grid-area: footer;
+}
