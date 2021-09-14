@@ -30,3 +30,19 @@ aside{
 footer{
         grid-area: footer;
 }
+
+@media (max-width: 800px)  {
+body{  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 80px auto 400px  1fr;
+  grid-template-areas: "head "
+                        "nav "
+                        "section "
+                        "footer "
+    }
+
+    aside, nav{
+      display: none;
+
+    }
+}
