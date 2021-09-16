@@ -1,0 +1,37 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+h1{
+  text-align: center;
+}
+.form-example label{
+
+}
+form{
+  text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #2874a6;
+    border-radius: 10px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 200px 150px 0 150px;
+}
+input{
+  border: 1px solid #2874a6;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+#pure {
+  width: 207px;
+  height: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: #2874a6;
+}
+#pure:hover{
+  color: white;
+}
