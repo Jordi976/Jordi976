@@ -43,6 +43,16 @@ body{  display: grid;
 
     aside, nav{
       display: none;
-
     }
+ .menu{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  background-color: white;
+}
+.lemenu{
+ float: left;
+ padding-left: 10px;
+}
 }
